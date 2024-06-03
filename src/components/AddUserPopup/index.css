@@ -1,0 +1,174 @@
+.add-popup-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+}
+
+.form-of-popup {
+  width: 60%;
+  height: 500px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 576px) {
+  .form-of-popup {
+    width: 80%;
+    height: 400px;
+  }
+}
+
+.label {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 15px;
+  color: #111211;
+}
+
+.input {
+  width: 95%;
+  height: 40px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  margin-top: 8px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 12px;
+  color: #111211;
+  padding: 10px 15px;
+  outline: none;
+  border: 1px solid gray;
+}
+
+@media (max-width: 576px) {
+  .label {
+    font-size: 8px;
+  }
+
+  .input {
+    width: 90%;
+    height: 25px;
+    font-size: 10px;
+  }
+}
+
+.mobile-dateofbirth-input {
+  width: 90%;
+  height: 40px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  margin-top: 8px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 12px;
+  color: #111211;
+  padding: 10px 15px;
+  outline: none;
+  border: 1px solid gray;
+}
+
+@media (max-width: 576px) {
+  .mobile-dateofbirth-input {
+    width: 75%;
+    height: 25px;
+    font-size: 10px;
+  }
+}
+
+.text-area-of-add {
+  width: 95%;
+  height: 70px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  margin-top: 8px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 12px;
+  color: #111211;
+  padding: 10px 15px;
+  outline: none;
+}
+
+@media (max-width: 576px) {
+  .text-area-of-add {
+    width: 90%;
+    height: 50px;
+  }
+}
+
+.number-and-dob-super-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  padding: 0px;
+}
+
+.sub-container-of-number-and-dob {
+  display: flex;
+  flex-direction: column;
+  width: 48%;
+}
+
+.container-of-cancel-and-add {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-bottom: 10px;
+}
+
+.cancel-btn-of-popup {
+  width: 100px;
+  height: 45px;
+  border-radius: 10px;
+  border-width: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 15px;
+  margin-right: 15px;
+  background-color: #f03547;
+  cursor: pointer;
+}
+
+.add-btn-of-popup {
+  width: 100px;
+  height: 45px;
+  border-radius: 10px;
+  border-width: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 15px;
+  margin-right: 15px;
+  background-color: #28a745;
+  cursor: pointer;
+}
+
+@media (max-width: 576px) {
+  .cancel-btn-of-popup {
+    width: 70px;
+    height: 40px;
+    font-size: 12px;
+  }
+
+  .add-btn-of-popup {
+    width: 70px;
+    height: 40px;
+    font-size: 12px;
+  }
+}
+
+.error-text {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 15px;
+  color: red;
+}

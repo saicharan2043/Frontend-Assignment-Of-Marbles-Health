@@ -1,0 +1,254 @@
+.list-of-user {
+  width: 90%;
+  border: 1px solid #131314;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 30px;
+  position: relative;
+  list-style: none;
+}
+
+@media (max-width: 576px) {
+  .list-of-user {
+    width: 80%;
+    padding: 5px;
+  }
+}
+
+.collapse-and-profile-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.profile-container {
+  display: flex;
+  align-items: center;
+}
+
+.profile {
+  width: 40px;
+  height: 40px;
+  margin-right: 20px;
+  border-radius: 100%;
+  background-color: #5a32a8;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 15px;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 576px) {
+  .profile {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+.profile-name {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 25px;
+  color: black;
+}
+
+@media (max-width: 576px) {
+  .profile-name {
+    font-size: 15px;
+  }
+}
+
+.collapse-icon {
+  width: 25px;
+  height: 25px;
+  color: #131314;
+  cursor: pointer;
+}
+@media (max-width: 576px) {
+  .collapse-icon {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+.hiding-container {
+  width: 100%;
+  display: none;
+}
+
+.display-container {
+  display: block;
+}
+
+.age-gender-country-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.label-text {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 18px;
+  color: gray;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 576px) {
+  .label-text {
+    font-size: 10px;
+  }
+}
+
+.value-text {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
+  color: black;
+}
+
+@media (max-width: 576px) {
+  .value-text {
+    font-size: 8px;
+  }
+}
+
+.edit-and-delete-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-top: 8px;
+}
+
+.delete-icon {
+  width: 25px;
+  height: 25px;
+  margin-right: 25px;
+  color: red;
+  cursor: pointer;
+}
+
+.edit-icon {
+  width: 25px;
+  height: 25px;
+  color: #66bced;
+  cursor: pointer;
+}
+
+@media (max-width: 576px) {
+  .delete-icon {
+    width: 18px;
+    height: 18px;
+    margin-right: 15px;
+  }
+
+  .edit-icon {
+    width: 18px;
+    height: 18px;
+  }
+}
+
+.delete-popup {
+  width: 300px;
+  background-color: #a3e3e3;
+  border-radius: 10px;
+  padding: 15px;
+  position: absolute;
+  top: 125px;
+  left: 200px;
+}
+
+@media (max-width: 576px) {
+  .delete-popup {
+    width: 150px;
+    top: 60px;
+    left: 30px;
+  }
+}
+
+.instruction-and-close-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.text-instruction {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 15px;
+  color: black;
+}
+
+@media (max-width: 576px) {
+  .text-instruction {
+    font-size: 8px;
+  }
+}
+
+.close-icon {
+  width: 20px;
+  height: 20px;
+  color: #131314;
+  cursor: pointer;
+}
+
+@media (max-width: 576px) {
+  .close-icon {
+    width: 12px;
+    height: 12px;
+  }
+}
+
+.cancel-and-delete-container {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+}
+
+.cancel-btn {
+  width: 80px;
+  height: 35px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  border-width: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 15px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 15px;
+  color: black;
+  cursor: pointer;
+}
+
+.Edit-btn {
+  width: 80px;
+  height: 35px;
+  background-color: #fa5846;
+  border-radius: 10px;
+  border-width: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 12px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 15px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+@media (max-width: 576px) {
+  .cancel-btn {
+    width: 50px;
+    height: 25px;
+    font-size: 10px;
+  }
+
+  .Edit-btn {
+    width: 50px;
+    height: 25px;
+    font-size: 10px;
+  }
+}
